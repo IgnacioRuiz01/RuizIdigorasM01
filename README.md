@@ -27,5 +27,8 @@ Crea la segunda pantalla en el mismo proyecto(investiga como). Deberás realizar
 En esta actualizacion hemos creado la pantalla de login mediante dos EditText uno para el nombre y otro para la contraseña, en caso de que el usuario introduzca el nombre y la contraseña adecuados,una vez
 pulsa el boton de login, se pasa a la otra activity y empieza el contador hecho anteriormente.
 
+![](img/foto3.png)
+![](img/foto4.png)
+
 
 

@@ -8,14 +8,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/contador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="207dp"
         android:fontFamily="@font/poppins"
         android:text="CONTADOR"
         android:textColor="#FFFFFF"
-        android:textSize="60sp"
+        android:textSize="48sp"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         app:lineHeight="96dp" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/numero"
         android:layout_width="123dp"
         android:layout_height="185dp"
         android:width="118dp"
@@ -36,18 +36,20 @@
         android:gravity="center"
         android:text="0"
         android:textColor="#FFFFFF"
-        android:textSize="110dp"
+        android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/suma_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#1B1B1B"
+        android:onClick="sumar"
         android:shadowColor="#1B1B1B"
+        android:text="+"
         android:textColorHighlight="#1B1B1B"
         android:textColorLink="#1B1B1B"
         app:cornerRadius="50dp"
@@ -61,12 +63,14 @@
         app:strokeColor="#1B1B1B" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/reset_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
         android:layout_marginEnd="33dp"
         android:backgroundTint="#1B1B1B"
+        android:onClick="reset"
+        android:text="RESET"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,11 +80,13 @@
         app:layout_constraintVertical_bias="0.8" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/resta_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="289dp"
         android:backgroundTint="#1B1B1B"
+        android:onClick="resta"
+        android:text="-"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +96,7 @@
         app:layout_constraintVertical_bias="0.75" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/cretedBy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
@@ -103,34 +109,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.96" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="RESET"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="599dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="-"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="330dp"
-        tools:layout_editor_absoluteY="599dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="604dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

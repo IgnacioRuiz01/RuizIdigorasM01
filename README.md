@@ -6,6 +6,9 @@ elegir el o los tipos de layouts que utilizarás. Mediante figma obtén el
 tipo de fuente, colores etc que debes utilizar en tu aplicación.
 
 
+
+
+
 ![](img/foto1.png)
 
 ![](img/foto2.png)

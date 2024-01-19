@@ -30,5 +30,13 @@ pulsa el boton de login, se pasa a la otra activity y empieza el contador hecho 
 ![](img/foto3.png)
 ![](img/foto4.png)
 
+EjERCICIO 03
+
+Cambia el proyecto para que el segundo activity en vez de ser el contador sea un activity con un FrameLayout en el que se verán los diferentes fragments (mínimo home, contador, salir) y por otra parte una barra de navegación con la que podamos viajar entre los diferentes fragments.
+
+El `BottomNavigationView` es un componente de la interfaz de usuario en Android que permite la navegación entre diferentes fragmentos en la parte inferior de la pantalla. Es comúnmente utilizado en aplicaciones con múltiples secciones o pestañas.
+
+Dividiremos la sección en dos parte, por un lado configuraremos el `bottomNavigation` y por otro lado el `FrameLayout` que es donde se ubican los diferentes fragments.
+
 
 

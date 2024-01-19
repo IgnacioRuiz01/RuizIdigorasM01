@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
             if (textoName.equals("admin") && textoPassword.equals("admin")) {
                 loginFallo.setVisibility(View.VISIBLE);
                 loginFallo.setText("Usuario y Contreseña correctos");
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, HomeActivity.class);
                 startActivity(intent);
             } else {
                 loginFallo.setVisibility(View.VISIBLE);

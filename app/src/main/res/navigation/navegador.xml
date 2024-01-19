@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.vedruna.ruizidigorase01.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/contador_Fragment"
+        android:name="com.vedruna.ruizidigorase01.contadorFragment"
+        android:label="fragment_contador_"
+        tools:layout="@layout/fragment_contador_" />
+    <fragment
+        android:id="@+id/logOutFragment"
+        android:name="com.vedruna.ruizidigorase01.logOutFragment"
+        android:label="fragment_log_out"
+        tools:layout="@layout/fragment_log_out" />
+</navigation>

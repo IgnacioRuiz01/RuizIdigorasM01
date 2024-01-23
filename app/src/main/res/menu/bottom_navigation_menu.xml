@@ -10,7 +10,7 @@
             android:title="Contador"
             android:icon="@drawable/ic_contador" />
         <item
-            android:id="@+id/navigation_notifications"
+            android:id="@+id/navigation_logOut"
             android:title="Logout"
             android:icon="@drawable/ic_logout" />
 </menu>

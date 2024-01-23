@@ -27,6 +27,8 @@ public class HomeActivity extends AppCompatActivity {
                 navController.navigate(R.id.homeFragment);
             } else if (item.getItemId() == R.id.navigation_contador) {
                 navController.navigate(R.id.contador_Fragment);
+            } else if (item.getItemId()== R.id.navigation_logOut) {
+                navController.navigate(R.id.logOutFragment);
             }
             return true;
         });

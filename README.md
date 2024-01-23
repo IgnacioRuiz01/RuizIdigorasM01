@@ -39,4 +39,9 @@ El `BottomNavigationView` es un componente de la interfaz de usuario en Android 
 Dividiremos la sección en dos parte, por un lado configuraremos el `bottomNavigation` y por otro lado el `FrameLayout` que es donde se ubican los diferentes fragments.
 
 
+![](img/foto5.png)
+![](img/foto6.png)
+![](img/foto7.png)
+
+
 
